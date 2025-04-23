@@ -10,7 +10,6 @@ RUN rm -rf ./*
 # Copy your static files into the Nginx container
 COPY . .
 
-# Expose the port Nginx is running on
-EXPOSE 80
+
 
 
